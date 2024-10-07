@@ -1,4 +1,3 @@
-// Map.js
 import React, { useState, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
@@ -18,7 +17,6 @@ import {
 } from "./stylecomponent/StyledComponents"; 
 import markerIcon from "leaflet/dist/images/marker-icon.png";
 import markerShadow from "leaflet/dist/images/marker-shadow.png";
-import { ClipLoader } from "react-spinners";
 import wildfireIcon from './icons/wildfire.png';
 import earthquakeIcon from './icons/earthquake.png';
 
